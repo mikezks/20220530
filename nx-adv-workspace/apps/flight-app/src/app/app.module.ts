@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SharedModule } from './shared/shared.module';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MeComponent } from './me/me.component';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   imports: [
@@ -35,9 +36,10 @@ import { MeComponent } from './me/me.component';
     NavbarComponent,
     HomeComponent,
     BasketComponent,
-    MeComponent
+    MeComponent,
+    InputComponent,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
